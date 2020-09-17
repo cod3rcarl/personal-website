@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+  
+}
+
+
+main {
+    margin-top: 30px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gold;
+    z-index: 1;
+    
+  }
+  
+  .nav-link{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Calistoga', cursive;
+    
+  }
+  
+  .nav-link:hover {
+    
+    color: orangered;
+    font-size: 1.1rem;
+  }
+
+  #welcome-section {
+
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+        background-color: black;
+        text-align: center;
+        display: flex;
+  }
+
+  #main-heading {
+
+    
+    color: gold;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    font-family: 'Calistoga', cursive;
+
+  }
+  .main-head{
+
+    font-size: 5em;
+    margin: 10px 5px 0 50px;
+    
+  }
+
+  p {
+      font-size: 1.8em
+  }
+
+  #click {
+      font-size: 1em;
+      margin-left: 550px;
+  }
+
+  #photo {
+      float: right;
+border-radius: 50px;
+width:25%;
+margin-right: 30px;
+border: gold solid 5px;
+}
+
+h1 { 
+
+  font-family: 'Calistoga', cursive;
+  padding: 10px;
+}
+
+h2 { 
+
+  font-family: 'Calistoga', cursive;
+  padding: 10px;
+
+}
+
+#bio {
+
+  color: gold;
+  background-color: black;
+  padding: 20px;
+  margin: auto;
+  text-align: justify;
+  font-family: 'Calistoga', cursive;
+  
+
+}
+
+#bio-photo {
+
+  float: right;
+  width: 15%;
+  margin-left: 15px;
+  border: solid gold 10px;
+  border-radius: 10px;
+  position: relative;
+ 
+}
+
+#interests {
+
+  text-align: justify;
+  color: gold;
+  background-color: black;
+  font-family: 'Calistoga', cursive;
+  padding: 20px;
+  
+}
+
+.line {
+  margin: auto;
+  background-color: gold;
+  width: 50%;
+  height: 5px;
+  border-radius: 2px;
+}
+
+
+#interests-photo {
+
+  float: left;
+  width: 22%;
+ 
+  margin-right: 20px;
+  border: solid gold 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+}
+
+#interests-heading {
+
+  font-family: 'Calistoga', cursive;
+  padding: 10px;
+  text-align: right;
+}
+
+#grid-container {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    z-index: 5;
+    margin: 20px;
+  }
+  
+  .project-tile {
+   
+    
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  #project-1, #project-2, #project-3 {
+
+    width: 210px; 
+    height:200px;
+    border: gold solid 5px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+
+  #grid-navbar {
+    
+    position: relative;
+    top:0;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;;
+    
+  }
+  
+  .grid-nav-link-1{
+   
+    display: inline-block;
+    color: gold;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Calistoga', cursive;
+    margin-left: 130px;
+    margin-bottom: 10px; 
+    
+  }
+
+  .grid-nav-link-2{
+   
+    display: inline-block;
+    color: gold;
+    text-align: center;
+   
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Calistoga', cursive;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    
+    
+  }
+
+  .grid-nav-link-3{
+   
+    display: inline-block;
+    color: gold;
+    text-align: center;
+   
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Calistoga', cursive;
+    margin-left: 140px;
+    margin-bottom: 10px;
+   
+  
+    
+  }
+
+
+  #profile-link {
+
+    text-align: center;
+  }
+
+  button {
+
+    margin :40px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: gold;
+    width: 50%;
+    font-family: 'Calistoga', cursive;
+  }
+
+  #bottom-section {
+
+    background-color: black;
+    
+
+  }
+  #projects {
+
+    background-color: black;
+  }
+
+
+
+  #bottom-header-2 {
+
+    font-size: 4em;
+    color: gold;
+    text-align: center; 
+    background-color: black;
+    
+  }
+
+    
+  .bottom-nav-link {
+
+    display: inline-block;
+    color: gold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Calistoga', cursive;
+    margin: 0 30px;
+    
+    
+  }
+
+  #contacts {
+
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+  .icon {
+    margin-right:  20px;
+    
+  }
+
+  .bottom-nav-link:hover {
+
+    color: orangered;
+    position: relative;
+    bottom: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
