@@ -11,10 +11,10 @@ myImage.onclick = function() {
     } else {
       myImage.setAttribute('src','img/codercarl.png');
     }
-}*/
+}
 
 
-let picPath = ['img/title.jpg','img/tm.jpg','img/cake.png','img/fish.jpg'];
+let picPath = ['img/tm.jpg','img/title.jpg','img/cake.png','img/fish.jpg'];
 var Pic = -1;
 //preload the images for smooth animation
 var img1 = new Array();
@@ -35,6 +35,6 @@ window.onload=function() {
 }
 
 
-
+*/
 
 
