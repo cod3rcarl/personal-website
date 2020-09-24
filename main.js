@@ -1,7 +1,5 @@
 
 
-/* (This code swaps the image on click instead of cyclying through the images)
-
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -15,7 +13,7 @@ myImage.onclick = function() {
 
 
 let picPath = ['img/tm.jpg','img/title.jpg','img/cake.png','img/fish.jpg'];
-var Pic = -1;
+let Pic = -1;
 //preload the images for smooth animation
 var img1 = new Array();
 for(i=0; i < picPath.length; i++) {
@@ -35,6 +33,6 @@ window.onload=function() {
 }
 
 
-*/
+
 
 
